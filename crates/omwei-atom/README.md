@@ -251,8 +251,8 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
-git clone https://github.com/sgn-project/semantic-atom.git
-cd semantic-atom
+git clone https://github.com/LelloOmwei/omwei-atom.git
+cd omwei-atom
 cargo test
 cargo doc --open
 ```
@@ -274,9 +274,8 @@ cargo test --no-default-features
 ## 📚 Documentation
 
 - **API Documentation**: [docs.rs/omwei-atom](https://docs.rs/omwei-atom)
-- **Standard Specification**: [32BSA Specification](https://32bsa.org/spec)
-- **Implementation Guide**: [Developer Guide](https://32bsa.org/developer-guide)
-- **AI Integration**: [Agent Development Guide](https://32bsa.org/ai-guide)
+- **Repository**: [GitHub - LelloOmwei/omwei-atom](https://github.com/LelloOmwei/omwei-atom)
+- **Issues & Support**: [GitHub Issues](https://github.com/LelloOmwei/omwei-atom/issues)
 
 ## 🔧 Feature Flags
 
@@ -334,7 +333,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
-git clone https://github.com/32bsa/types.git
+git clone https://github.com/LelloOmwei/omwei-atom.git
 cd omwei-atom
 cargo test
 cargo doc --open
@@ -363,13 +362,13 @@ This project is licensed under either of:
 
 at your option.
 
-## � 32BSA Project
+## 🔄 OMWEI/SAMS Industrial Ecosystem
 
-The 32B Semantic Atom is part of the **32BSA Project**, an open-source initiative for universal semantic interoperability in industrial AI systems.
+The 32B Semantic Atom is the core trust-hierarchy component of the OMWEI/SAMS Industrial Ecosystem, a high-performance framework for 5ns latency hardware validation.
 
-- **Website**: [32bsa.org](https://32bsa.org)
-- **GitHub**: [github.com/32bsa](https://github.com/32bsa)
-- **Community**: [Discord Server](https://discord.gg/32bsa)
+- **Repository**: [GitHub - LelloOmwei/omwei-atom](https://github.com/LelloOmwei/omwei-atom)
+- **Issues & Support**: [GitHub Issues](https://github.com/LelloOmwei/omwei-atom/issues)
+- **Community**: Contact via GitHub Issues
 
 ## 🔄 Version History
 
@@ -383,4 +382,4 @@ The 32B Semantic Atom is part of the **32BSA Project**, an open-source initiativ
 
 ---
 
-**Built with ❤️ by the 32BSA Community - Powering the Future of Industrial AI**
+**Built with ❤️ by the OMWEI Community - Powering the Future of Industrial AI**

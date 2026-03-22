@@ -142,7 +142,7 @@ This project is dual-licensed under **MIT** or **Apache-2.0** - your choice!
 
 ## 🙏 Acknowledgments
 
-- **32BSA Consortium** - Semantic Atom standard
+- **OMWEI Project** - 32B Semantic Atom standard & trust hierarchy
 - **OMWEI Foundation** - Trust hierarchy research  
 - **Silicon Catalyst** - Hardware acceleration
 - **CRYSTALS Project** - Post-quantum cryptography
