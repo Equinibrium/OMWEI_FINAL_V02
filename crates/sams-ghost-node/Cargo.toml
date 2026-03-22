@@ -1,17 +1,13 @@
 [package]
 name = "sams-ghost-node"
-version = "0.2.0"
-edition = "2021"
-authors = ["OMWEI Project <maintainers@omwei.org>"]
-license = "MIT OR Apache-2.0"
-description = "SAMS Ghost Node - Post-Quantum Cryptography storage and verification for Managed Space atoms in OMWEI 32BSA ecosystem."
-repository = "https://github.com/LelloOmwei/omwei-atom"
-homepage = "https://github.com/LelloOmwei/omwei-atom"
-documentation = "https://docs.rs/sams-ghost-node"
-readme = "README.md"
-keywords = ["SAMS", "GhostNode", "OMWEI", "32BSA", "PQC"]
-categories = ["cryptography", "database", "embedded", "security"]
-rust-version = "1.70"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+repository.workspace = true
+homepage.workspace = true
+license.workspace = true
+categories.workspace = true
+keywords.workspace = true
 
 [dependencies]
 # Core OMWEI 32BSA Trust Hierarchy

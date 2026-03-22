@@ -1,17 +1,13 @@
 [package]
 name = "omwei-atom"
 version = "0.1.3"
-edition = "2021"
-authors = ["32BSA Contributors"]
-license = "MIT OR Apache-2.0"
-description = "Core implementation of the OMWEI 32B Semantic Atom (32BSA) standard. The universal grammar for Agentic AI and Industrial IoT Integrity."
-repository = "https://github.com/LelloOmwei/omwei-atom"
-homepage = "https://github.com/LelloOmwei/omwei-atom"
-documentation = "https://docs.rs/omwei-atom"
-readme = "README.md"
-keywords = ["iot", "semantic", "atom", "32bsa", "industry4"]
-categories = ["data-structures", "embedded", "network-programming", "science"]
-rust-version = "1.70"
+authors.workspace = true
+edition.workspace = true
+repository.workspace = true
+homepage.workspace = true
+license.workspace = true
+categories.workspace = true
+keywords.workspace = true
 
 [features]
 default = []

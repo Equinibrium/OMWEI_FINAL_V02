@@ -4,6 +4,16 @@ members = [
 ]
 resolver = "2"
 
+[workspace.package]
+version = "0.2.0"
+authors = ["Stanislav Levarsky <your-email@example.com>"]
+edition = "2021"
+repository = "https://github.com/LelloOmwei/omwei-atom"
+homepage = "https://github.com/LelloOmwei/omwei-atom"
+license = "MIT OR Apache-2.0"
+categories = ["embedded", "cryptography", "science"]
+keywords = ["omwei", "32bsa", "trust-hierarchy", "pqc"]
+
 [workspace.dependencies]
 # Core OMWEI 32BSA Trust Hierarchy
 omwei-atom = { version = "0.1.3", path = "./crates/omwei-atom", repository = "https://github.com/LelloOmwei/omwei-atom" }

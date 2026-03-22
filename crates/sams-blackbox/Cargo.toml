@@ -1,17 +1,13 @@
 [package]
 name = "sams-blackbox"
-version = "0.2.0"
-edition = "2021"
-authors = ["OMWEI Project <maintainers@omwei.org>"]
-license = "MIT OR Apache-2.0"
-description = "SAMS Blackbox - Trust-aware logging and audit trail system for OMWEI 32BSA ecosystem with Sincerity Bit tagging."
-repository = "https://github.com/LelloOmwei/omwei-atom"
-homepage = "https://github.com/LelloOmwei/omwei-atom"
-documentation = "https://docs.rs/sams-blackbox"
-readme = "README.md"
-keywords = ["SAMS", "Blackbox", "OMWEI", "32BSA", "TrustLogging"]
-categories = ["development-tools", "database", "embedded"]
-rust-version = "1.70"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+repository.workspace = true
+homepage.workspace = true
+license.workspace = true
+categories.workspace = true
+keywords.workspace = true
 
 [dependencies]
 # Core OMWEI 32BSA Trust Hierarchy

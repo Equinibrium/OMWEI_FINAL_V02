@@ -1,17 +1,13 @@
 [package]
 name = "sams-logic-gate"
-version = "0.2.0"
-edition = "2021"
-authors = ["OMWEI Project <maintainers@omwei.org>"]
-license = "MIT OR Apache-2.0"
-description = "SAMS Logic Gate - Hardware-level validation and filtering with zero-latency trust checking for OMWEI 32BSA ecosystem."
-repository = "https://github.com/LelloOmwei/omwei-atom"
-homepage = "https://github.com/LelloOmwei/omwei-atom"
-documentation = "https://docs.rs/sams-logic-gate"
-readme = "README.md"
-keywords = ["SAMS", "LogicGate", "OMWEI", "32BSA", "HardwareValidation"]
-categories = ["embedded", "no-std", "cryptography", "hardware-support", "aerospace"]
-rust-version = "1.70"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+repository.workspace = true
+homepage.workspace = true
+license.workspace = true
+categories.workspace = true
+keywords.workspace = true
 
 [dependencies]
 # Core OMWEI 32BSA Trust Hierarchy
