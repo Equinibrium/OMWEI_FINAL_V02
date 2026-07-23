@@ -1,0 +1,40 @@
+[package]
+name = "omwei-atom"
+version = "0.1.4"
+edition = "2021"
+authors = ["OMWEI Project <maintainers@omwei.org>"]
+license = "MIT OR Apache-2.0"
+description = "Reference implementation of OMWEI execution integrity format and 32BSA data structure."
+repository = "https://github.com/LelloOmwei/omwei-atom"
+homepage = "https://www.equinibrium.eu"
+documentation = "https://docs.rs/omwei-atom"
+readme = "README.md"
+keywords = ["32BSA", "OMWEI", "execution-integrity", "data-format", "embedded"]
+categories = ["embedded", "no-std", "cryptography", "wasm", "aerospace"]
+rust-version = "1.70"
+
+[features]
+default = ["std"]
+std = ["serde?/std", "sha2?/std"]
+serde = ["dep:serde", "dep:serde_json"]
+pqc = ["dep:sha2"]
+
+[dependencies]
+serde = { version = "1.0", optional = true, default-features = false, features = ["derive"] }
+serde_json = { version = "1.0", optional = true }
+sha2 = { version = "0.10", optional = true, default-features = false }
+
+[dev-dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+rand = "0.8"
+
+[workspace]
+
+[package.metadata.docs.rs]
+all-features = false
+features = ["std"]
+rustdoc-args = ["--cfg", "docsrs"]
+# Target configuration for docs.rs to ensure compatibility
+targets = ["x86_64-unknown-linux-gnu"]
