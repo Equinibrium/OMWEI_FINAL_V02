@@ -1,0 +1,17 @@
+[package]
+name = "sams-execution-boundary-poc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Stanislav Levarsky <your-email@example.com>"]
+license = "MIT OR Apache-2.0"
+description = "Proof of Concept for SAMS Execution Integrity Architecture - State Transition Integrity Boundary"
+
+[dependencies]
+omwei-atom = { workspace = true }
+sha2 = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+hex = "0.4"
+chrono = { workspace = true }
+
+[dev-dependencies]
