@@ -1,9 +1,0 @@
-[target.riscv64gc-unknown-none-elf]
-runner = "riscv64-unknown-elf-gdb"
-
-rustflags = [
-    "-C", "link-arg=-Tlinker.ld",
-]
-
-[build]
-target = "riscv64gc-unknown-none-elf"
