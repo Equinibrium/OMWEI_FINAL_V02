@@ -8,15 +8,15 @@ resolver = "2"
 version = "0.2.1"
 authors = ["Stanislav Levarsky <your-email@example.com>"]
 edition = "2021"
-repository = "https://github.com/LelloOmwei/omwei-atom"
-homepage = "https://github.com/LelloOmwei/omwei-atom"
+repository = "https://github.com/Equinibrium/OMWEI_FINAL_V02"
+homepage = "https://github.com/Equinibrium/OMWEI_FINAL_V02"
 license = "MIT OR Apache-2.0"
 categories = ["embedded", "cryptography", "science"]
 keywords = ["omwei", "32bsa", "trust-hierarchy", "pqc"]
 
 [workspace.dependencies]
 # Core OMWEI 32BSA Trust Hierarchy
-omwei-atom = { version = "0.1.4", path = "./crates/omwei-atom", repository = "https://github.com/LelloOmwei/omwei-atom" }
+omwei-atom = { version = "0.1.4", path = "./crates/omwei-atom", repository = "https://github.com/Equinibrium/OMWEI_FINAL_V02" }
 
 # SAMS Ecosystem Components
 sams-logic-gate = { version = "0.2.1", path = "./crates/sams-logic-gate" }

@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["OMWEI Project <maintainers@omwei.org>"]
 license = "MIT OR Apache-2.0"
 description = "Reference implementation of OMWEI execution integrity format and 32BSA data structure."
-repository = "https://github.com/LelloOmwei/omwei-atom"
+repository = "https://github.com/Equinibrium/OMWEI_FINAL_V02"
 homepage = "https://www.equinibrium.eu"
 documentation = "https://docs.rs/omwei-atom"
 readme = "README.md"
@@ -29,8 +29,6 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 sha2 = "0.10"
 rand = "0.8"
-
-[workspace]
 
 [package.metadata.docs.rs]
 all-features = false
