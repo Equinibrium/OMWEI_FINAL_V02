@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 description = "Proof of Concept for SAMS Execution Integrity Architecture - State Transition Integrity Boundary"
 repository = "https://github.com/Equinibrium/OMWEI_FINAL_V02"
 readme = "README.md"
-keywords = ["execution-integrity", "deterministic-execution", "state-transition", "observation-closure", "formal-verification"]
+keywords = ["execution-integrity", "determinism", "state-transition", "observation-closure", "formal-verification"]
 categories = ["algorithms", "science", "cryptography"]
 
 [dependencies]
