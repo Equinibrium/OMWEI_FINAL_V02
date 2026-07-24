@@ -8,7 +8,7 @@
 //! Formal property:
 //! same_claim + same_snapshot + same_predicate_implementation = same_decision
 
-use omwei_atom::Atom;
+use omwei_atom::trust_hierarchy::Atom;
 use std::collections::HashMap;
 use std::fmt;
 use sha2::{Sha256, Digest};
